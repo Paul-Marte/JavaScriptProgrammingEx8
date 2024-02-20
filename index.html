@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom and Events</title>
+    <script src="app.js" defer></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            padding: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="myHeader"></h1>
+    <section>
+        <input type="text" id="firstNameInput"><br>
+        <button onclick="clickHandler()">Click Me</button><br />
+        <button id="myButton">Click me too</button>
+
+        <p id="target"></p>
+    </section>
+
+    <section>
+        Checkbox 1: <input type="checkbox" id="chkMyCheckbox"> <span id="checkboxState"></span><br />
+        Checkbox 2: <input type="checkbox" id="chkMyCheckbox2"> <span id="checkboxState2"></span>
+    </section>
+
+    <section>
+        <h2>Radio Buttons</h2>
+        <input type="radio" name="tech" value="html"> HTML<br>
+        <input type="radio" name="tech" value="css"> CSS<br>
+        <input type="radio" name="tech" value="js"> JavaScript<br>
+        <input type="radio" name="tech" value="c++"> C++<br />
+        <input type="radio" name="tech" value="c#"> C#
+
+        <p id="radio-target"></p>
+    </section>
+
+    <section>
+        <select id="consoles">
+            <option>--Select a Console--</option>
+            <option value="10">Playstation 5</option>
+            <option value="11">XBox X</option>
+            <option value="12">Switch</option>
+            <option value="13">Steam Deck</option>
+        </select>
+
+        <p id="target-console"></p>
+    </section>
+
+    <section><input type="password" name="" id=""></section>
+</body>
+
+</html>
